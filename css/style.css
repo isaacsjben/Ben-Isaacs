@@ -1,0 +1,140 @@
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-color: #c9e9b6;
+    text-align: center;
+    color:black;
+    padding: 0%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.img-responsive{
+    width:100%;
+}
+
+.carousel-inner{
+	height:500px;
+}
+/*** CARD ***/
+
+.card {
+    background-color: #fff;
+    border-color: green;
+    border-width: 1px;
+    width: 100%;
+	
+	text-align: center;
+}
+
+.about-me-card {
+	background-color: #fff;
+	border-color: #cccccc;
+	border-width: 1px;
+	width: 100%;
+}
+
+.card-title {
+	font-weight: bold;
+}
+
+.card-text {
+	color: green;
+}
+
+.portfolio-description{
+	color: green;
+}
+
+.image-card {
+	background-color: #fff;
+	border-color: #cccccc;
+	border-width: 1px;
+	width: 100%;
+}
+
+.content-card {
+	background-color: #fff;
+	border-color: #cccccc;
+	border-width: 1px;
+	width: 100%;
+	margin-bottom: 14px;
+}
+
+.card:hover {
+    border-color: #ebd122;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+/*** Basic Text Styles ***/
+
+
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+.btn-primary {
+	background-color: #c9e9b6;
+	border-color: green;
+	font-family: 'Courier', monospace;
+	color: green;
+}
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: 'Courier', monospace;
+    background-color: #fff;
+    color: black;
+}
+
+.image-card-text {
+	margin-top: 14px;
+	font-size: 18px;
+	line-height: 14px;
+}
+
+.portfolio-title{
+	font-weight: bold;
+}
+
+.tech-card-text {
+	margin-top: 14px;
+	font-size: 18px;
+	line-height: 14px;
+}

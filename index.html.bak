@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="maps, cartography"/>
+	<title>Ben Isaacs</title>
+
+    <!--put your Bootstrap stylesheet links below this comment and above style.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="container">
+            <h2>Ben Isaacs</h2>
+            <p>Scandinavian Studies, BA | Cartography & GIS, BA | Medieval Studies, Certificate</p>
+        </div>
+    </div>
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/Reykjarfjörðurlaug-3.jpg" class="d-block w-100" alt="Reykjarfjörðurlaug">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/Krossneslaug-5.jpg" class="d-block w-100" alt="Krossneslaug">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/Skorradalur-3.jpg" class="d-block w-100" alt="Skorradalur">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+	
+    <div class="container">
+        <div class="row">
+			<div class="col-md-8">
+				<div class="about-me-card">
+					<div class="card-body">
+						<h3 class="card-title">About Ben</h3>
+							<p class="card-text">I am an undergraduate student in my final year at the University of Wisconsin-Madison. My academic interest in the intersection between landscape and culture, along with my educational background in Scandinavian Studies, has led to met to pursue research on the history of the hot springs of Iceland. I am also a map fanatic and intend to explore the overlap between my two fields of study in graduate school. You can see some of this overlap in my map portfolio, that look at various phenomena across Scandinavia.<br>
+							<br>
+							Enjoy looking at my map portfolio by clicking on the entries below. Expect more entries in the future, and thanks for visiting my website!</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="image-card">
+					<img class="card-img-top" src="assets/me-amsterdam.jpg" alt="Ben in Amsterdam">
+					<div class="card-body">
+						<a href="assets/BenIsaacs-CV.pdf" class="btn btn-primary">Link to Ben's CV</a>
+						<br>
+						<p class="image-card-text">email: bisaacs2@wisc.edu<br>
+						<br>
+						tel: +1 (608) 572-5439</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="content-card">
+					<div class="card-body">
+						<h3 class="card-title">My Portfolio</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+                <div class="card">
+                    <a href="portfolio/colombia.html">
+                        <img class="card-img-top" src="assets/sweden-terrorism-thumbnail.png" alt="sweden refugees infographic">
+					</a>
+                    <div class="card-body">
+                        <a href="sweden.html" class="btn btn-primary">Sweden: A Home Lost to Hostility</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="portfolio/childcare.html">
+                        <img class="card-img-top" src="assets/iceland-thumbnail.png" alt="iceland map"></a>
+                    <div class="card-body">
+                        <a href="homogenic.html" class="btn btn-primary">Homogenic</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="portfolio/india.html">
+                        <img class="card-img-top" src="assets/terrorism-in-scandinavia-thumbnail.png" alt="terrorism in scandinavia map"></a>
+                    <div class="card-body">
+                        <a href="terrorism.html" class="btn btn-primary">Terrorism in Scandinavia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--put your external script links here-->
+    <script type="text/javascript" src="lib/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+</body>
+
+</html>

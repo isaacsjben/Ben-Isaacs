@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben Isaacs</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+
+    <!--put your Bootstrap stylesheet links below this comment and above style.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="container">
+            <h2>Ben Isaacs</h2>
+            <p>Scandinavian Studies, BA | Cartography & GIS, BA | Medieval Studies, Certificate</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="portfolio-title">Sweden: A Home Lost to Hostility</h2>
+                <p class="portfolio-description">
+                    For this project, I used ArcGIS Story Maps to create a visual narrative documenting the rise of xenophobia in Sweden over the last few years. The bold contrast of yellow text and accents on a black background is intended to alert the reader and evoke a sense of emergency, while also making reference to Sweden’s national colors. I ultimately wanted to demonstrate the simultaneous closeness and distance of the two main character groups in the story: the refugees who have fled from war to Sweden, and the Swedes who have turned to nationalism in response. My strategy was to unfurl two separate narratives, one of refugees’ journeys to Sweden, and one of the rise of the nationalist Sweden Democrat party, before tying them together with a bivariate map (designed in ArcGIS Pro) that shows the overlap of refugees and Sweden Democrat voters in the same communities. The result is a questioning of the future integrity and structure of Swedish society. 
+                </p>
+            </div>
+			<div class="col-md-4">
+				<div class="tech-card">
+					<h4 class="card-title">Technology Used</h4>
+					<p class="tech-card-text">ArcGIS Story Maps<br>
+					<br>
+					ArcGIS Pro</p><br>
+					<h4 class="card-title">Links</h4>
+					<a href="https://arcg.is/1arT8H" class="btn btn-primary">ArcGIS Story Maps</a>
+					<br>
+					<br>
+					<a href="file:///E:/Graphic%20Design%20in%20Cartography/Lab%203/Website%20design/My-Website/index.html" class="btn btn-primary">Return to Home</a>
+				</div>
+			</div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 portfolio-image figure-img img-fluid">
+				<iframe src="https://arcg.is/1arT8H" width="100%", height="1000px"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--put your external script links here-->
+    <script type="text/javascript" src="../lib/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+</body></html>

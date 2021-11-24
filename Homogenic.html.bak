@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ben Isaacs</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+
+    <!--put your Bootstrap stylesheet links below this comment and above style.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="container">
+            <h2>Ben Isaacs</h2>
+            <p>Scandinavian Studies, BA | Cartography & GIS, BA | Medieval Studies, Certificate</p>
+        </div>
+    </div>
+
+    <div class="container">
+		<div class="row">
+			<h2 class="portfolio-title">Homogenic</h2>
+			<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+				<img src="assets/homogenic-design.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p class="tech-card-text"><i>Above: The inspiration board for my Mapbox style.</i></p><br>
+        <div class="row">
+            <div class="col-md-8">
+                <p class="portfolio-description">
+                     This project is an ode to one of my favorite works in Scandinavian music, the 1997 album <i>Homogenic</i> by the Icelandic songstress Bjork. <i>Homogenic</i> conceptualizes the untamed beauty of the Icelandic landscape in terms of sound, and I wanted the icons on this map style to catalogue the landforms that are sonically portrayed by the album. The map aesthetic itself is inspired by the album cover, which features a cyborg-like Bjork in a dress that resembles a fiery volcano covered in snow. I conveyed this aesthetic heavily through color, employing Mapbox Studio to imbue my map with pale blues, purples, and whites alongside bold reds and black.
+                </p>
+            </div>
+			<div class="col-md-4">
+				<div class="tech-card">
+					<h4 class="card-title">Technology Used</h4>
+					<p class="tech-card-text">Mapbox Studio</p><br>
+					<h4 class="card-title">Links</h4>
+					<a href="https://api.mapbox.com/styles/v1/isaacsjben/ckv2lljad3igm14mzn4pnaywl.html?title=view&access_token=pk.eyJ1IjoiaXNhYWNzamJlbiIsImEiOiJja3YybGt6ZGIxbHRwMnZ0Y2RyY3c0bTFtIn0.UtSk1oou8Z4WAMVN9NLD5g&zoomwheel=true&fresh=true#6.12/65.067/-21.083" class="btn btn-primary">Homogenic | Mapbox</a>
+					<br>
+					<br>
+					<a href="index.html" class="btn btn-primary">Return to Home</a>
+				</div>
+			</div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 portfolio-image figure-img img-fluid">
+				<iframe src="https://api.mapbox.com/styles/v1/isaacsjben/ckv2lljad3igm14mzn4pnaywl.html?title=view&access_token=pk.eyJ1IjoiaXNhYWNzamJlbiIsImEiOiJja3YybGt6ZGIxbHRwMnZ0Y2RyY3c0bTFtIn0.UtSk1oou8Z4WAMVN9NLD5g&zoomwheel=true&fresh=true#6.12/65.067/-21.083" width="100%", height="1000px"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--put your external script links here-->
+    <script type="text/javascript" src="../lib/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+</body></html>
